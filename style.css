@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 226, 226);
+}
+
+.container {
+    box-shadow: 0 0 15px black;
+    width: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: rgb(55, 175, 19);
+    padding: 35px 20px;
+    text-align: center;
+}
+
+/* Nadpis */
+.filter-heading {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+/* Input */
+.inputFilter {
+    background-color: rgb(238, 226, 226);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+/* Hlavní část */
+#poke {
+    background-color: rgb(207, 123, 66);
+    list-style-type: none;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#poke li {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(238, 226, 226);
+}
+
+#poke img {
+    background-color: rgb(238, 226, 226);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+h3 {
+    color: #070707;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.li-nacitani {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#poke li.hide {
+    display: none;
+}
